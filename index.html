@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Maquinaria — ARBURG</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #121212 0%, #1c1c1c 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px 30px;
+    border-bottom: 1px solid #2c2c2c;
+  }
+  header h1 {
+    color: #f2f2f2;
+    font-size: 32px;
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  header h1 span {
+    color: #c9a24b;
+  }
+  header p {
+    color: #999;
+    font-size: 15px;
+    margin: 0;
+  }
+  .grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 24px 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 22px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #202020;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 26px 22px;
+    text-decoration: none;
+    transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+    min-height: 130px;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: #c9a24b;
+    box-shadow: 0 10px 28px rgba(201, 162, 75, 0.15);
+  }
+  .card .tag {
+    color: #c9a24b;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .card .name {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .card .arrow {
+    color: #777;
+    margin-top: 18px;
+    font-size: 14px;
+    transition: color 0.18s ease, transform 0.18s ease;
+  }
+  .card:hover .arrow {
+    color: #c9a24b;
+    transform: translateX(4px);
+  }
+  footer {
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    padding: 20px;
+    border-top: 1px solid #2c2c2c;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Catálogo de <span>Maquinaria</span></h1>
+  <p>Selecciona un modelo para ver su ficha técnica completa</p>
+</header>
+<div class="grid">
+  <a class="card" href="320_C.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">320 C</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="320_GOLDEN_EDITION.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">320 GOLDEN EDITION</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="420_GOLDEN_EDITION.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">420 GOLDEN EDITION</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="470_GOLDEN_EDITION.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">470 GOLDEN EDITION</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="570_GOLDEN_EDITION.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">570 GOLDEN EDITION</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="720_S.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">720 S</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="720_S_GOLDEN_EDITION.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">720 S GOLDEN EDITION</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="720_E_Golden_Electric_es.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">720 E Golden Electric es</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="820_S.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">820 S</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="920_S_5000KN.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">920 S 5000KN</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+  <a class="card" href="920_S_GOLDEN_EDITION.html">
+    <div>
+      <div class="tag">Ficha técnica</div>
+      <div class="name">920 S GOLDEN EDITION</div>
+    </div>
+    <div class="arrow">Ver catálogo &rarr;</div>
+  </a>
+</div>
+<footer>ARBURG · Fichas técnicas digitalizadas</footer>
+</body>
+</html>

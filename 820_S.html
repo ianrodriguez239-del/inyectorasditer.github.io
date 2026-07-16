@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>820 S — Catálogo</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #525659;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #1a1a1a;
+    border-bottom: 2px solid #c9a24b;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  header h1 {
+    color: #f0f0f0;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  header .badge {
+    color: #c9a24b;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  a.back {
+    color: #c9a24b;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #c9a24b;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
+  }
+  a.back:hover {
+    background: #c9a24b;
+    color: #1a1a1a;
+  }
+  .viewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 12px 60px;
+    gap: 24px;
+  }
+  .viewer img {
+    max-width: 100%;
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.55);
+    background: #fff;
+    border-radius: 2px;
+  }
+  .page-num {
+    color: #cfcfcf;
+    font-size: 12px;
+    margin-top: -14px;
+    letter-spacing: 1px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>820 S</h1>
+  <div style="display:flex; align-items:center; gap:14px;">
+    <span class="badge">8 páginas</span>
+    <a class="back" href="index.html">&larr; Volver al catálogo</a>
+  </div>
+</header>
+<div class="viewer">
+  <img src="820_S/page-1.png" alt="820 S - página 1" loading="lazy">
+  <div class="page-num">Página 1 de 8</div>
+  <img src="820_S/page-2.png" alt="820 S - página 2" loading="lazy">
+  <div class="page-num">Página 2 de 8</div>
+  <img src="820_S/page-3.png" alt="820 S - página 3" loading="lazy">
+  <div class="page-num">Página 3 de 8</div>
+  <img src="820_S/page-4.png" alt="820 S - página 4" loading="lazy">
+  <div class="page-num">Página 4 de 8</div>
+  <img src="820_S/page-5.png" alt="820 S - página 5" loading="lazy">
+  <div class="page-num">Página 5 de 8</div>
+  <img src="820_S/page-6.png" alt="820 S - página 6" loading="lazy">
+  <div class="page-num">Página 6 de 8</div>
+  <img src="820_S/page-7.png" alt="820 S - página 7" loading="lazy">
+  <div class="page-num">Página 7 de 8</div>
+  <img src="820_S/page-8.png" alt="820 S - página 8" loading="lazy">
+  <div class="page-num">Página 8 de 8</div>
+</div>
+</body>
+</html>
